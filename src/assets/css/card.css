@@ -1,0 +1,7 @@
+.mainCard{
+    transition: 0.3s !important;
+    background: radial-gradient(circle at 100% 100%,#213743 0,#213743 6px, transparent 6px) 0% 0% / 8px 8px no-repeat, radial-gradient(circle at 0 100%,#213743 0,#213743 6px, transparent 6px) 100% 0% / 8px 8px no-repeat, radial-gradient(circle at 100% 0,#213743 0,#213743 6px, transparent 6px) 0% 100% / 8px 8px no-repeat, radial-gradient(circle at 0 0,#213743 0,#213743 6px, transparent 6px) 100% 100% / 8px 8px no-repeat, linear-gradient(var(--grey-500),#213743) 50% 50% / calc(100% - 4px) calc(100% - 16px) no-repeat, linear-gradient(#213743, #213743) 50% 50% / calc(100% - 16px) calc(100% - 4px) no-repeat, linear-gradient(0deg, transparent 15%, #017aff 100%) !important;
+}
+.mainCard:hover{
+    transform: translateY(-15px);
+}

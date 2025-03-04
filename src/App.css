@@ -1,0 +1,8 @@
+@import './assets/css/slider.css';
+@import './assets/css/card.css';
+
+.body {
+  margin: 0;
+  background: #1b2a38; 
+  color: white;
+}
