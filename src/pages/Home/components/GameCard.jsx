@@ -74,7 +74,7 @@ const GameSlider = ({ title, icon }) => {
   };
 
   return (
-    <Box p={3}>
+    <Box>
       <Typography variant="h5" mb={2}>
         <span className='d-flex align-items-center'>{icon} <span className='ps-1'>{title}</span> </span>
       </Typography>

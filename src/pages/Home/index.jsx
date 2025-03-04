@@ -56,13 +56,13 @@ const Home = () => {
             <Box mt={2}>
                 <GameSlider title="Continue Playing" icon={<HistoryIcon />} />
             </Box>
-            <Box mt={2}>
+            <Box mt={1}>
                 <GameSlider title="Trending Games" />
             </Box>
-            <Box mt={2}>
+            <Box mt={1}>
                 <GameSlider title="Trending Sports" />
             </Box>
-            <Box mt={2}>
+            <Box mt={1}>
                 <RacesCard title="Trending Sports" />
             </Box>
         </Box>
