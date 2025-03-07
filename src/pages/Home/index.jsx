@@ -5,9 +5,13 @@ import SportImg from "../../assets/images/explore-sports-en.avif";
 import GameSlider from "./components/GameCard";
 import HistoryIcon from '@mui/icons-material/History';
 import RacesCard from "./components/RacesCard";
+import Beat from "./components/Beat";
+import Footer from "./components/FOOTER.JSX";
 const Home = () => {
     return (
-        <Box className="container" mt={4}>
+        <Box
+            // className="container"
+            mt={4} mx={5}>
             <Box display="flex" flexDirection={{ xs: 'column', md: 'row' }} justifyContent="space-between" alignItems="center" gap={2}>
                 <Box width={{ xs: '100%', md: '50%' }}>
                     <Card sx={{ backgroundColor: '#1E2539', color: '#fff' }}>
@@ -36,7 +40,7 @@ const Home = () => {
                             </CardContent>
                         </CardActionArea>
                     </Card>
-                    <Card sx={{ maxWidth: { xs: '100%', sm: 300 }, background: "#213743" }}  className="mainCard">
+                    <Card sx={{ maxWidth: { xs: '100%', sm: 300 }, background: "#213743" }} className="mainCard">
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -63,7 +67,13 @@ const Home = () => {
                 <GameSlider title="Trending Sports" />
             </Box>
             <Box mt={1}>
-                <RacesCard title="Trending Sports" />
+                <RacesCard />
+            </Box>
+            <Box mt={1}>
+                <Beat />
+            </Box>
+            <Box mt={1}>
+                <Footer />
             </Box>
         </Box>
     );
